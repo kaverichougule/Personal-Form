@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <!-- First Name -->
+            <label for="Fname">First Name: </label>
+            <input type="text" size="15" required> 
+            <br><br>
+            <!-- Middle Name -->
+            <label for="Mname">Middle Name: </label>
+            <input type="text" size="15" required>
+            <br><br>
+            <!-- Last Name -->
+            <label for="lname">Last Name: </label>
+            <input type="text" size="15" required >
+            <br><br>
+            <!-- Courses -->
+            <label for="Course">Course: </label>
+            <select>
+                <option value="Course">Course</option>
+                <option value="BTech">B.Tech</option>
+                <option value="bca">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="MTech">M.Tech</option>
+                <option value="mca">MCA</option>
+                <option value="mba">MBA</option>
+            </select>
+
+            <!-- Gender -->
+            <br><br>
+            <label for="gender">Gender: </label><br>
+            <input type="radio" name="gender"> Male <br>
+            <input type="radio" name="gender"> Female <br>
+            <input type="radio" name="gender"> Other <br>
+            <br>
+
+            <!-- DOB -->
+            <label for="dob">DOB: </label>
+            <input type="datetime-local">
+            <!-- Phone Number -->
+            <br>
+            <label for="number">Phone</label>
+            <input type="text" name="country code" placeholder="+91" disabled size="2"/>
+            <input type="text" name="number" size="10" />
+            <br><br>
+            <!-- Address -->
+            <label for="address">Address</label><br>
+            <textarea name="address" cols="85" rows="5" value="address"></textarea>
+            
+            <!-- Email -->
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email">
+
+            <!-- Password -->
+            <br><br><br>
+            <label for="pass">Password: </label>
+            <input type="password">
+
+            <!-- Re-type Password -->
+            <br><br><br>
+            <label for="pass">Re-type Password: </label>
+            <input type="password">
+
+            <!-- Check Box -->
+            <br><br>
+            <input type="checkbox">
+            <label for="checkbox">Agree to terms and conditions</label>
+
+            <!-- Choose file -->
+            <br><br>
+            <label for="file">Choose File</label>
+            <input type="file" id="file">
+
+            <!-- Choose color -->
+            <br><br>
+            <label for="color">Choose Color</label>
+            <input type="color" id="color">
+
+            <br><br>
+            <input type="Reset">
+            <input type="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
