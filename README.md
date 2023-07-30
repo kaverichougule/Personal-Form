@@ -11,6 +11,7 @@ label: Associates labels with form elements to provide a description or name for
 <br>
 input type="text": Creates a single-line text input field, used for entering first name, middle name, and last name.
 
+
 ![image](https://github.com/kaverichougule/Personal-Form/assets/101037685/045c580c-cc96-4234-9937-7e5cb799e710)
 select and option: Creates a dropdown menu with options, used for selecting a course.
 
